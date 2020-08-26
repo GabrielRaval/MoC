@@ -4,15 +4,17 @@ Created on Sat Nov 10 21:41:28 2018
 
 @author: Gabriel
 """
+
+import time
 import numpy as np
 import matplotlib.pyplot as plt
-
+from numba import njit
 
 """Method of characteristics for a minimum length nozzle."""
-
+t_start = time.perf_counter() # Start timer
 Mdes = 3  # Design Mach number
 g = 1.2  # Ratio of specific heats
-Nc = 500  # Number of characteristic lines
+Nc = 100  # Number of characteristic lines
 d = 1  # Small initial turning angle of flow, in degrees
 
 Np = 2
@@ -56,8 +58,10 @@ def MofNU(nu):
         else:
             return Mlow
     else:
-        return 'ERROR: NU out of range. Must be between 0 and 88.4.'
+        raise ValueError('ERROR: NU out of range. Must be between 0 and 88.4.')
 
+MofNU = njit(MofNU)
+NUofM = njit(NUofM)
 
 A = np.zeros((Np+Nc, 10))
 Rp = np.ones(Np+Nc)  # R+, Riemann invariant of C+
@@ -252,3 +256,5 @@ CY[:, 0] = 1  # All characteristics begin at y = 1
 # plt.title('Nozzle geometry plot')
 # plt.show()
 print('A/A* = %f' % yw[-1])
+t_end = time.perf_counter()  # Stop timer
+print(f'Complete in {round(t_end-t_start, 2)} seconds')
