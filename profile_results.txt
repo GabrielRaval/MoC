@@ -1,0 +1,170 @@
+         396818 function calls (394800 primitive calls) in 67.362 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   67.362   67.362 <frozen importlib._bootstrap>:986(_find_and_load)
+        1    0.000    0.000   67.362   67.362 <frozen importlib._bootstrap>:956(_find_and_load_unlocked)
+        1    0.000    0.000   67.361   67.361 <frozen importlib._bootstrap>:650(_load_unlocked)
+        1    0.000    0.000   67.361   67.361 <frozen importlib._bootstrap_external>:777(exec_module)
+        2    0.000    0.000   67.361   33.680 <frozen importlib._bootstrap>:211(_call_with_frames_removed)
+        1    0.000    0.000   67.359   67.359 {built-in method builtins.exec}
+        1   19.142   19.142   67.359   67.359 /home/gabriel/Repositories/MoC/MoC.py:2(<module>)
+   126250    2.493    0.000   48.119    0.000 /home/gabriel/Repositories/MoC/MoC.py:42(MofNU)
+   126251   45.248    0.000   45.626    0.000 /home/gabriel/Repositories/MoC/MoC.py:31(NUofM)
+   126265    0.379    0.000    0.379    0.000 {built-in method numpy.arange}
+3047/1029    0.057    0.000    0.086    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+     1006    0.001    0.000    0.060    0.000 <__array_function__ internals>:2(append)
+     1006    0.002    0.000    0.058    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/lib/function_base.py:4640(append)
+     1006    0.001    0.000    0.052    0.000 <__array_function__ internals>:2(concatenate)
+       10    0.000    0.000    0.022    0.002 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:55(_wrapfunc)
+        1    0.000    0.000    0.016    0.016 <__array_function__ internals>:2(argsort)
+        1    0.000    0.000    0.016    0.016 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:997(argsort)
+        1    0.016    0.016    0.016    0.016 {method 'argsort' of 'numpy.ndarray' objects}
+        9    0.000    0.000    0.006    0.001 <__array_function__ internals>:2(around)
+        9    0.000    0.000    0.006    0.001 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3130(around)
+        9    0.006    0.001    0.006    0.001 {method 'round' of 'numpy.ndarray' objects}
+       10    0.000    0.000    0.005    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/numeric.py:159(ones)
+       10    0.000    0.000    0.004    0.000 <__array_function__ internals>:2(copyto)
+     2022    0.004    0.000    0.004    0.000 {built-in method numpy.array}
+        8    0.004    0.001    0.004    0.001 {method 'astype' of 'numpy.ndarray' objects}
+     1006    0.001    0.000    0.004    0.000 <__array_function__ internals>:2(ravel)
+        1    0.000    0.000    0.003    0.003 <frozen importlib._bootstrap_external>:849(get_code)
+     1006    0.001    0.000    0.003    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:1693(ravel)
+        1    0.000    0.000    0.002    0.002 <frozen importlib._bootstrap_external>:841(source_to_code)
+        1    0.002    0.002    0.002    0.002 {built-in method builtins.compile}
+       16    0.000    0.000    0.001    0.000 {built-in method builtins.print}
+       32    0.000    0.000    0.001    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/ipykernel/iostream.py:386(write)
+     2016    0.001    0.000    0.001    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/_asarray.py:88(asanyarray)
+       35    0.000    0.000    0.001    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/ipykernel/iostream.py:197(schedule)
+       10    0.001    0.000    0.001    0.000 {built-in method numpy.zeros}
+     1006    0.001    0.000    0.001    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+       35    0.001    0.000    0.001    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/zmq/sugar/socket.py:342(send)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:890(_find_spec)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(linspace)
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/function_base.py:26(linspace)
+     1047    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1334(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1302(_get_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1015(_cache_bytecode)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1020(set_data)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:120(_write_atomic)
+     1006    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/multiarray.py:145(concatenate)
+       35    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/threading.py:1071(is_alive)
+     1006    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/lib/function_base.py:4636(_append_dispatcher)
+     1006    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:1689(_ravel_dispatcher)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:969(get_data)
+       10    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+       32    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/ipykernel/iostream.py:310(_is_master_process)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.replace}
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(any)
+       35    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/threading.py:1017(_wait_for_tstate_lock)
+        3    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:73(_wrapreduction)
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:2236(any)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:549(module_from_spec)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:62(_path_join)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1479(_fill_cache)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:80(_path_stat)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:591(_code_to_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:477(_init_module_attrs)
+       32    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/ipykernel/iostream.py:323(_schedule_flush)
+        2    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        7    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+       35    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       32    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.open}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.listdir}
+        3    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+       35    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/ipykernel/iostream.py:93(_event_pipe)
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        2    0.000    0.000    0.000    0.000 {method 'any' of 'numpy.generic' objects}
+        1    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(sum)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:294(cache_from_source)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:147(__enter__)
+        1    0.000    0.000    0.000    0.000 {built-in method marshal.dumps}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.FileIO' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:376(cached)
+        1    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:2092(sum)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:64(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/_methods.py:44(_any)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:424(_get_cached)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(ndim)
+       35    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:2(result_type)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1426(_get_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:90(_path_is_mode_type)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:436(_calc_mode)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:526(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:493(_classify_pyc)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1265(_path_importer_cache)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:99(_path_isfile)
+       35    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/threading.py:513(is_set)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:629(spec_from_file_location)
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3033(_ndim_dispatcher)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:151(__exit__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:68(_path_split)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1010(path_stats)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:51(_unpack_uint32)
+       34    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       18    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:103(release)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:78(acquire)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:46(_pack_uint32)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:104(_path_isdir)
+        2    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:725(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:176(cb)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        9    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3126(_around_dispatcher)
+       10    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/cProfile.py:133(__exit__)
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
+        3    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:74(<dictcomp>)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/numeric.py:1786(isscalar)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:867(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:800(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:456(_check_name_wrapper)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:863(__enter__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+       10    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/multiarray.py:1043(copyto)
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:342(__init__)
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:3037(ndim)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:389(parent)
+        2    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:143(__init__)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        2    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:939(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:40(_relax_case)
+        3    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        2    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/function_base.py:21(_linspace_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:993(_argsort_dispatcher)
+        2    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/multiarray.py:635(result_type)
+        2    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:2232(_any_dispatcher)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:397(has_location)
+        1    0.000    0.000    0.000    0.000 /home/gabriel/anaconda3/lib/python3.8/site-packages/numpy/core/fromnumeric.py:2087(_sum_dispatcher)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:964(get_filename)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:774(create_module)
+
+

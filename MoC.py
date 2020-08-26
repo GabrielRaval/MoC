@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 Mdes = 3  # Design Mach number
 g = 1.2  # Ratio of specific heats
-Nc = 40  # Number of characteristic lines
+Nc = 500  # Number of characteristic lines
 d = 1  # Small initial turning angle of flow, in degrees
 
 Np = 2
@@ -241,14 +241,14 @@ CY[:, 1:] = y[p]  # y-coordinate of each point along each characteristic
 CX[:, 0] = 0  # All characteristics begin at x = 0
 CY[:, 0] = 1  # All characteristics begin at y = 1
 
-plt.figure(figsize=(10, 10))
-plt.plot(xw, yw, 'k', xw, -yw, 'k')  # Plot wall
-for i in np.arange(Nc):  # Plot characteristic lines
-    plt.plot(CX[i], CY[i], 'b', CX[i], -CY[i], 'b', linewidth=0.1)
+# plt.figure(figsize=(10, 10))
+# plt.plot(xw, yw, 'k')  # Plot wall
+# for i in np.arange(Nc):  # Plot characteristic lines
+#     plt.plot(CX[i], CY[i], 'b', linewidth=0.1)
 
-plt.xlabel('x position')
-plt.ylabel('y position')
-plt.axis('scaled')
-plt.title('Nozzle geometry plot')
-plt.show()
+# plt.xlabel('x position')
+# plt.ylabel('y position')
+# plt.axis('scaled')
+# plt.title('Nozzle geometry plot')
+# plt.show()
 print('A/A* = %f' % yw[-1])
